@@ -694,3 +694,4 @@ fi
 echo
 print_status "info" "Analysis completed at $(date)"
 echo
+#  ./check_elf_alignment.sh build/app/outputs/flutter-apk/app-release.apk
