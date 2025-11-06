@@ -694,4 +694,8 @@ fi
 echo
 print_status "info" "Analysis completed at $(date)"
 echo
-#  ./check_elf_alignment.sh build/app/outputs/flutter-apk/app-release.apk
+
+
+
+# ./check_elf_alignment.sh build/app/outputs/flutter-apk/app-release.apk
+#wsl bash -c "cat check_elf_alignment.sh | tr -d '\r' > /tmp/check_elf_alignment.sh && chmod +x /tmp/check_elf_alignment.sh && /tmp/check_elf_alignment.sh /mnt/e/my_project/taxi-client/build/app/outputs/flutter-apk/app-release.apk"
